@@ -53,18 +53,20 @@ nav a:hover {
     overflow: hidden;
     transition: transform 0.3s ease;
 }
+
 .post:hover {
     transform: scale(1.02);
 }
 .post img {
  .post-grid .post img {
     width: 100% !important;
-    height: 300px !important;        
-    object-fit: contain !important;  
+    height: 320px !important;        
+    object-fit: contain !important; 
     object-position: center !important;
     background-color: #f5f5f5 !important;
     padding: 15px !important;
     box-sizing: border-box !important;
+    border-radius: 4px;
 }
 .post-content {
     padding: 1rem;
