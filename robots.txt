@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOURUSERNAME.github.io/YOUR-REPO-NAME/sitemap.xml
+Sitemap: https://faithandindustry.github.io/faithandindustry/sitemap.xml
