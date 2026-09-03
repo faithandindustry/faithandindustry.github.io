@@ -6,6 +6,59 @@
     <title>News - Faith and Industry</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        .post {
+            margin-bottom: 60px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #e0e0e0;
+            overflow: hidden; /* Clears the float properly */
+        }
+        .post:last-child {
+            border-bottom: none;
+            margin-bottom: 20px;
+        }
+        .post img {
+            width: 320px;
+            max-width: 100%;
+            height: auto;
+            float: left;
+            margin: 0 28px 20px 0;
+            border-radius: 4px;
+        }
+        .post h2 {
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+        .post h3 {
+            margin-top: 24px;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        .post ol {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        .post iframe {
+            display: block;
+            width: 100%;
+            max-width: 100%;
+            height: 120px;
+            margin: 20px 0;
+            border: 0;
+        }
+        .post a {
+            color: #ff4d4d;
+        }
+        @media (max-width: 700px) {
+            .post img {
+                float: none;
+                display: block;
+                margin: 0 auto 20px auto;
+                width: 100%;
+                max-width: 320px;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -27,80 +80,59 @@
                 <a href="contact.html">Contact</a>
             </nav>
         </div>
-</header>
+    </header>
 
     <div class="content">
+        <h1>News</h1>
+
+        <!-- James Howard -->
         <div class="post">
             <div class="post-content">
+                <h2>James Howard — Power Ballads and The Wash</h2>
 
-				</header>
+                <img src="images/power_ballads_cover.png" alt="Power Ballads and The Wash">
 
-    <div class="content">
-        <div class="post">
-            <div class="post-content">
-                
-<h2>James Howard — Power Ballads and The Wash</h2>
-                
-                <!-- Larger image on the left -->
-                <img src="images/power_ballads_cover.png" 
-                     alt="Power Ballads and The Wash" 
-                     style="width: 450px; max-width: 100%; height: auto; float: left; margin: 0 25px 20px 0; border-radius: 4px;">
-                
                 <p><strong>FAI039</strong> • Singer Songwriter</p>
-                
                 <p><strong>Album Release:</strong> 19th November 2026 (Digital) / 6th November 2026 (Vinyl)</p>
-                
-             
+
                 <h3>Tracklist</h3>
                 <ol>
-                    <li> Seven Seconds</li>
-                    <li> Power Ballads</li>
-                    <li> Low Winter Sun</li>
-                    <li> The Ancient Wisdom</li>
-                    <li> The Moon In The Movies</li>
-		    <li> Mm Mm Mm</li>
- 		    <li> Thames Clipper</li>
-		    <li> Version Song</li>
+                    <li>Seven Seconds</li>
+                    <li>Power Ballads</li>
+                    <li>Low Winter Sun</li>
+                    <li>The Ancient Wisdom</li>
+                    <li>The Moon In The Movies</li>
+                    <li>Mm Mm Mm</li>
+                    <li>Thames Clipper</li>
+                    <li>Version Song</li>
                 </ol>
 
-               </p> <!-- Bandcamp Embedded Player -->
-               <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=4285708194/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://gizimina.bandcamp.com/album/id-dlam-id-dawl">Id-Dlam Id-Dawl by Ġiżimina</a></iframe>
-                    </p> 
-                <p> Power Ballads and The Wash is the sophomore album from London-based multi-instrumentalist James Howard, due for release on 6th November 2026 via boutique label Faith & Industry. James is known as founder of critically acclaimed 2010’s band Blue House and collaborator with luminaries such as Rozi Plain, Dana Gavanski, Kate Bollinger and Alabaster Deplume. For Power Ballads and The Wash James has worked with producer Mike Lindsay, co-founder of folktronica group Tunng. Power Ballads and The Wash follows James's debut solo album Peek-A-Boo, released to great acclaim in April 2023.</p>
+                <!-- Placeholder Bandcamp player - replace when ready -->
+                <iframe src="https://bandcamp.com/EmbeddedPlayer/album=PLACEHOLDER/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" 
+                        seamless>
+                    <a href="#">Power Ballads and The Wash by James Howard</a>
+                </iframe>
 
-                <p> All eight songs of Power Ballads and The Wash began life as intimate live takes of guitar or piano and voice, recorded at Howard’s studio in Deptford, south London. Steeped in the energy of the local environment each session was preceded by a visit to the Thames to ask for its muddy blessing, with the DLR rumbling by. The sessions at Lindsay’s Margate studio built a widescreen world around Howard’s original performances, from the restless Eventide vocal treatments on Seven Seconds to the Hollywood string samples of The Moon In The Movies and the Moog bass that quietly anchors the record throughout. Howard also praises violinist Magdalena MacClean's (Caroline) contributions, “my favourite moment on the album is when Magda’s violin takes over in the middle of Thames Clipper and expresses what my words couldn’t”. Closing track Version Song showcases Howard’s knack for being both simultaneously funny and tender: went to the workshop on Wednesday morning / learning how to build / 16th-century style automata / it’s a special skill / the kind that nuns used to hide in / to make the people cry / and what could be more holy than / paying for passing by </p>
+                <p>Power Ballads and The Wash is the sophomore album from London-based multi-instrumentalist James Howard, due for release on 6th November 2026 via boutique label Faith & Industry. James is known as founder of critically acclaimed 2010’s band Blue House and collaborator with luminaries such as Rozi Plain, Dana Gavanski, Kate Bollinger and Alabaster Deplume. For Power Ballads and The Wash James has worked with producer Mike Lindsay, co-founder of folktronica group Tunng. Power Ballads and The Wash follows James's debut solo album Peek-A-Boo, released to great acclaim in April 2023.</p>
 
-                <p> Beneath this gentle absurdity, though, lies something quietly powerful. Howard’s song-writing explores the notion that, despite our ever-shortening attention spans, there is still the possibility of quiet reflection and the discovery therein of revelations hidden in plain sight. The world of these lucid dream-esque reveries is unmistakably London. The record began with a wing-and-a-prayer visit to the Thames, and ends there too: the wash from the Thames Clipper / nearly breaks through your shoe / like some feelings sometimes do </p>
+                <p>All eight songs of Power Ballads and The Wash began life as intimate live takes of guitar or piano and voice, recorded at Howard’s studio in Deptford, south London. Steeped in the energy of the local environment each session was preceded by a visit to the Thames to ask for its muddy blessing, with the DLR rumbling by. The sessions at Lindsay’s Margate studio built a widescreen world around Howard’s original performances.</p>
 
-                
+                <p>Beneath this gentle absurdity lies something quietly powerful. Howard’s song-writing explores the notion that, despite our ever-shortening attention spans, there is still the possibility of quiet reflection and the discovery of revelations hidden in plain sight.</p>
+
                 <p><a href="https://idol-io.ffm.to/powerballadsandthewash" target="_blank">Digital services</a></p>
             </div>
         </div>
-    </div>
 
-    <footer>
-    </footer>
-</body>
-</html>
-
-        
-    </header>
-				 <div class="content">
+        <!-- Ġiżimina -->
         <div class="post">
             <div class="post-content">
-                
-<h2>Ġiżimina — Id-Dlam Id-Dawl</h2>
-                
-                <!-- Larger image on the left -->
-                <img src="images/fai038_gizimina_art.jpeg" 
-                     alt="Id-Dlam Id-Dawl" 
-                     style="width: 450px; max-width: 100%; height: auto; float: left; margin: 0 25px 20px 0; border-radius: 4px;">
-                
+                <h2>Ġiżimina — Id-Dlam Id-Dawl</h2>
+
+                <img src="images/fai038_gizimina_art.jpeg" alt="Id-Dlam Id-Dawl">
+
                 <p><strong>FAI038</strong> • Experimental Folk</p>
-                
                 <p><strong>Album Release:</strong> 30th July 2026 (Digital) / 25th September 2026 (Vinyl)</p>
-                
-             
+
                 <h3>Tracklist</h3>
                 <ol>
                     <li>Il-Mamà</li>
@@ -108,68 +140,36 @@
                     <li>Il-Baħħ</li>
                     <li>Il-Ħolma (feat. David Chircop)</li>
                     <li>Il-Wegħda</li>
-		    <li>Il-Milja Tal-Ħajja (feat. Mario Pace)</li>
- 		    <li>Il-Qamar</li>
+                    <li>Il-Milja Tal-Ħajja (feat. Mario Pace)</li>
+                    <li>Il-Qamar</li>
                 </ol>
 
-               </p> <!-- Bandcamp Embedded Player -->
-               <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=4285708194/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://gizimina.bandcamp.com/album/id-dlam-id-dawl">Id-Dlam Id-Dawl by Ġiżimina</a></iframe>
-                    </p> 
-                <p>Yasmin Kuymizakis aka JOON (Italians Do It Better) is Ġiżimina.
-Working across performance and sound installation with Maltese folk music, cultural
-memory, and reinterpretation. Id-Dlam Id-Dawl (The Darkness The Light) is a seven-track
-album built from archive folk guitar recordings. Reworking sampled fragments of Maltese
-musical memory into something intimate and personal. The album moves through
-change, loss, uncertainty, and renewal, sitting between darkness and light as states of
-transformation.</p>
+                <iframe src="https://bandcamp.com/EmbeddedPlayer/album=4285708194/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" 
+                        seamless>
+                    <a href="https://gizimina.bandcamp.com/album/id-dlam-id-dawl">Id-Dlam Id-Dawl by Ġiżimina</a>
+                </iframe>
 
-                <p>Faith And Industry has always had an ear for outer folk experimentation and here we
-present the first release in Maltese language. Uniquely the only Semitic language written
-in Latin script, evolved from Siculo-Arabic and spoken by around 570,000 people across
-the diasporic communities.</p>
+                <p>Yasmin Kuymizakis aka JOON (Italians Do It Better) is Ġiżimina. Working across performance and sound installation with Maltese folk music, cultural memory, and reinterpretation. Id-Dlam Id-Dawl (The Darkness The Light) is a seven-track album built from archive folk guitar recordings, reworking sampled fragments of Maltese musical memory into something intimate and personal.</p>
 
-                <p>An accomplished electronic musician Ġiżimina’s (Yasmin) production and composition
-experience takes this to a wider audience beyond. Having Toured throughout North
-America and Europe supporting Future Islands (2023–2024). Composed and produced
-original music for the video game “Wheel World” (2025), and created music, sound design
-and mixing work across film, theatre and fashion, including “Dolce”, a film for the Venice
-Biennale directed by Charlie Cauchi (2026).</p>
+                <p>Faith And Industry has always had an ear for outer folk experimentation and here we present the first release in Maltese language. Uniquely the only Semitic language written in Latin script, evolved from Siculo-Arabic and spoken by around 570,000 people across the diasporic communities.</p>
 
-                 <p>The guitar recordings where captured on cassette tape between 1980-90 in bars and
-garages where the music was performed. Ġiżimina embarked on the making of this
-collection following a live show aside filmmaker and sound collector Vincent Moon in
-2025..</p>
+                <p>The guitar recordings were captured on cassette tape between 1980-90 in bars and garages where the music was performed. Ġiżimina embarked on the making of this collection following a live show with filmmaker and sound collector Vincent Moon in 2025.</p>
 
-                
                 <p><a href="https://idol-io.ffm.to/iddlamiddawl" target="_blank">Digital services</a></p>
             </div>
         </div>
-    </div>
 
-    <footer>
-    </footer>
-</body>
-</html>
-
-        
-    </header>
-
-    <div class="content">
+        <!-- Cavallini/Nada -->
         <div class="post">
             <div class="post-content">
-                
-<h2>Cavallini/Nada — Continuum</h2>
-                
-                <!-- Larger image on the left -->
-                <img src="images/fai037-cavallini-Nada-continuum.jpeg" 
-                     alt="Continuum" 
-                     style="width: 450px; max-width: 100%; height: auto; float: left; margin: 0 25px 20px 0; border-radius: 4px;">
-                
+                <h2>Cavallini/Nada — Continuum</h2>
+
+                <img src="images/fai037-cavallini-Nada-continuum.jpeg" alt="Continuum">
+
                 <p><strong>FAI037</strong> • Ambient / Electronic / Experimental</p>
-                
                 <p><strong>Album Release:</strong> 5th June 2025</p>
                 <p><strong>Singles:</strong> Continuum Pt 1 (12th May) • Continuum Pt 4 (27th May)</p>
-               
+
                 <h3>Tracklist</h3>
                 <ol>
                     <li>Continuum Pt 1</li>
@@ -179,57 +179,24 @@ collection following a live show aside filmmaker and sound collector Vincent Moo
                     <li>Continuum Pt 5</li>
                 </ol>
 
-                <!-- Bandcamp Embedded Player -->
-                <iframe style="border: 0; width: 100%; height: 120px; margin: 1.5rem 0;" 
-                        src="https://bandcamp.com/EmbeddedPlayer/album=3911820431/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" 
+                <iframe src="https://bandcamp.com/EmbeddedPlayer/album=3911820431/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" 
                         seamless>
                     <a href="https://cavallininada.bandcamp.com/album/continuum">Continuum by Cavallini / Nada</a>
                 </iframe>
 
-                <p>Continuum is the debut album from sound healer Giulia Cavallini and electronic producer Karlos
-Nada, and it arrives as something genuinely rare: a record that feels unhurried, unforced, and
-completely at ease with itself. It is the sound of two friends who have spent years listening deeply,
-both to music and to one another, finally deciding to make something together.</p>
+                <p>Continuum is the debut album from sound healer Giulia Cavallini and electronic producer Karlos Nada. It is the sound of two friends who have spent years listening deeply, both to music and to one another, finally deciding to make something together.</p>
 
-                <p>Giulia Cavallini works at the intersection of sound, the body, and presence. As a practitioner of sound
-healing, she brings gongs and singing bowls not merely as instruments but as vessels for vibration,
-tools shaped by centuries of contemplative tradition. She is a member of the Planetary Gong
-Ensemble and an active performer across multiple musical contexts. Through “Presence” she
-explores what it means to be fully attentive as a musician, treating live performance as a meditative
-discipline. Through “Hand of Glory” she moves into darker, more ritualistic sonic territory. Across all of
-these endeavours a consistent thread runs through her work: sound as a means of transformation,
-whether experienced alone in a quiet room or shared with a crowd in real time.</p>
+                <p>Giulia Cavallini works at the intersection of sound, the body, and presence. Karlos Nada is an electronic producer with a restless curiosity and a highly developed ear for space and texture. The album also features the flute of Jin Theriault.</p>
 
-                <p>Karlos Nada is an electronic producer with a restless curiosity and a highly developed ear for space
-and texture. His work under his own name draws on the fringes of ambient music and electronic
-composition, while “Join the Din” explores more expansive, beat driven territory. What distinguishes
-him as a producer is a commitment to craft: to the patient shaping of sonic environments where every
-element earns its place. His productions tend to breathe, to leave room, and to resist the impulse
-toward unnecessary decoration.</p>
+                <p>Continuum is designed to be heard in one uninterrupted sitting, as a continuous movement rather than a collection of individual pieces.</p>
 
-                 <p>When Giulia and Karlos began working on what would become Continuum, there was no grand
-conceptual framework driving the sessions. There was simply trust, shared curiosity, and a long
-established friendship that made experimentation feel natural. Giulia's gongs and bowls provide the
-living, breathing foundation of the record, their overtones blooming and decaying in real time. Around
-and within these acoustic resonances, Karlos built an electronic landscape that responds and reflects
-rather than competes: subtle rhythmic patterns that feel like breath, glowing drones, and delicate IDM
-influenced textures that emerge and dissolve at the edges of perception.</p>
-
-                 <p>The album also features the flute of Jin Theriault, whose contributions add a further dimension of
-organic warmth. Where the gongs carry mass and the electronics carry structure, the flute carries
-something more elusive: a voice tracing the contours of the sound around it and finding something
-worth following.</p>
-
-                <p>Continuum is designed to be heard in one uninterrupted sitting, as a continuous movement rather
-than a collection of individual pieces. The music does not push or insist; it creates conditions, a slower
-pace, a widening of awareness, an invitation to follow the arc of sound the way one might follow the
-arc of a long, slow breath. It is the kind of music that sounds different in the morning than it does at
-night, and reveals more with each listen.</p>
-                
-                <p><a href="https://cavallininada.bandcamp.com/album/continuum" target="_blank">Order on Bandcamp</a></p>
-                <p><a href="https://idol-io.ffm.to/continuum-2" target="_blank">Digital services</a></p>
+                <p>
+                    <a href="https://cavallininada.bandcamp.com/album/continuum" target="_blank">Order on Bandcamp</a> · 
+                    <a href="https://idol-io.ffm.to/continuum-2" target="_blank">Digital services</a>
+                </p>
             </div>
         </div>
+
     </div>
 
     <footer>
