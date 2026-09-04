@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://faithandindustry.github.io/sitemap.xml
+Sitemap: https://faithandindustry.com/sitemap.xml
